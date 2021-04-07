@@ -1,0 +1,91 @@
+body {
+  font-family: 'Patrick Hand', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .icon {
+  color: black !important;
+  font-weight: 800;
+}
+
+.navbar a {
+  color: black !important;
+  margin-right: 10px;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.btn-hire-me {
+  background-color: grey;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.carousel {
+  background: linear-gradient(to right, lightgrey, grey);
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-description {
+  color: black;
+}
+
+.feature-about-image {
+  width: 80%;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+.feature-about-divider {
+  margin: 86px;
+}
+
+.p-2 {
+  background-color: lightgrey;
+  color: black;
+  align-content: center;
+}
+
+.home-img {
+  display: block;
+  float: left;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  width: 40px;
+}
+
+.about-main {
+  width: 90%;
+  height: auto;
+  margin: 30px;
+  padding: 100px;
+  justify-content: end;
+  flex-flow: wrap;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.column-left {
+  width: 45%;
+  margin: 10px;
+  padding: 0;
+  float: left;
+  text-align: justify;
+  display: table;
+}
+
+.column-right {
+  width: 45%;
+  margin: 10px;
+  padding: 0;
+  float: right;
+  text-align: justify;
+  display: table;
+}
